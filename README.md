@@ -1,10 +1,13 @@
 # E-Store-Theme
 ## Lesson 01. Intro
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
-Смотреть на YouTube [HTML2WC.Lesson 01](https://www.youtube.com/watch?v=H0WktqMIk1Y)
+
+> Смотреть на YouTube [HTML2WC.Lesson 01](https://www.youtube.com/watch?v=H0WktqMIk1Y)
 ## Lesson 02. Создание файлов темы
 Внутри файлы темы. В данный момент тема еще голая, но рабочая. Структура файлов строиться по логике вполнения функционала или части кода.
-Смотреть на YouTube [HTML2WC.Lesson 02](https://www.youtube.com/watch?v=1SBQpXrMAOY)
+
+> Смотреть на YouTube [HTML2WC.Lesson 02](https://www.youtube.com/watch?v=1SBQpXrMAOY)
+
 Структура темы
 ```
 e-store-theme
