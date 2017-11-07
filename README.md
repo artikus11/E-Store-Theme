@@ -52,3 +52,17 @@ e-store-theme
 	style.css
 	woocommerce.css
 ```
+
+## Lesson 03. Подключение файлов стилей и скрипов
+Внутри файлы темы. В данный момент тема уже рабочая. Есть начальные настройки для шапки и подвала. Добавлены файлы стилей, скрипров, шрифтов, картинок
+
+Внесены изменения в файлы
+```
+theme-optons.php
+enqueue-script-style.php
+style.css
+functions.php
+woocommerce.php
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 03](https://www.youtube.com/watch?v=Itkgs5xfL1c)
