@@ -66,3 +66,28 @@ woocommerce.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 03](https://www.youtube.com/watch?v=Itkgs5xfL1c)
+
+## Lesson 04.1. Шапка: формы, логотип, поиск, корзина
+Внутри файлы темы. В данный момент тема уже рабочая. Изменены шрифты, подключеы формы авторизации и регистрации, сделаны настройки для логотипа, созданы поиск на аяксе и выведено количество товаров на иконке корзины
+
+Внесены изменения в файлы
+```
+theme-optons.php
+enqueue-script-style.php
+style.css
+functions.php
+woocommerce.php
+header.php
+script.js
+wc-functions-remove.php
+```
+Добавлены файлы
+```
+ajax-search.js
+ajax.php
+wc-form-login.php
+wc-form-register.php
+wc-functions-cart.php
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 04.1](https://www.youtube.com/watch?v=2wIEC5WSLaY)
