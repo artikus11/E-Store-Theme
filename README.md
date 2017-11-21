@@ -1,8 +1,14 @@
 # E-Store-Theme
-## Lesson 01. Intro
+- [Введение](https://github.com/artikus11/E-Store-Theme#lesson-01-intro)
+- [Создание файлов темы](https://github.com/artikus11/E-Store-Theme#lesson-02-Создание-файлов-темы)
+- [Подключение файлов стилей и скрипов](https://github.com/artikus11/E-Store-Theme#lesson-03-Подключение-файлов-стилей-и-скрипов)
+- [Шапка: формы, логотип, поиск, корзина](https://github.com/artikus11/E-Store-Theme#lesson-041-Шапка-формы-логотип-поиск-корзина)
+- [Создание файлов темы](https://github.com/artikus11/E-Store-Theme#lesson-042-Шапка-завершение)
+
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
 > Смотреть на YouTube [HTML2WC.Lesson 01](https://www.youtube.com/watch?v=H0WktqMIk1Y)
+
 ## Lesson 02. Создание файлов темы
 Внутри файлы темы. В данный момент тема еще голая, но рабочая. Структура файлов строиться по логике вполнения функционала или части кода.
 
@@ -67,7 +73,7 @@ woocommerce.php
 
 > Смотреть на YouTube [HTML2WC.Lesson 03](https://www.youtube.com/watch?v=Itkgs5xfL1c)
 
-## Lesson 04.1. Шапка: формы, логотип, поиск, корзина
+## Lesson 04.1. Шапка: завершение
 Внутри файлы темы. В данный момент тема уже рабочая. Изменены шрифты, подключеы формы авторизации и регистрации, сделаны настройки для логотипа, созданы поиск на аяксе и выведено количество товаров на иконке корзины
 
 Внесены изменения в файлы
@@ -91,3 +97,27 @@ wc-functions-cart.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 04.1](https://www.youtube.com/watch?v=2wIEC5WSLaY)
+
+## Lesson 04.2. Шапка: формы, логотип, поиск, корзина
+Внутри файлы темы. В данный момент тема уже рабочая. В этой части доделываем шапку: выводим навигацию с использованием walker меню, наводим порядок по принципам WooCommerce, дорабатываем поиск, добавляем панель товаров при наведении в мини-корзине.
+
+Внесены изменения в файлы
+```
+style.css
+functions.php
+header.php
+script.js
+custom-header.php
+```
+Добавлены файлы
+```
+navigations.php
+login-icon.php
+logo.php
+mini-card.php
+modal-login.php
+navi.php
+search.php
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 04.2](https://www.youtube.com/watch?v=s2lWxJLzFlE)
