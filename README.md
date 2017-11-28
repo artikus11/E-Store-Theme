@@ -4,6 +4,7 @@
 - [Подключение файлов стилей и скрипов](https://github.com/artikus11/E-Store-Theme#lesson-03-Подключение-файлов-стилей-и-скрипов)
 - [Шапка: формы, логотип, поиск, корзина](https://github.com/artikus11/E-Store-Theme#lesson-041-Шапка-формы-логотип-поиск-корзина)
 - [Шапка: завершение](https://github.com/artikus11/E-Store-Theme#lesson-042-Шапка-завершение)
+- [Подвал](https://github.com/artikus11/E-Store-Theme#lesson-05-Подвал)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -121,3 +122,25 @@ search.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 04.2](https://www.youtube.com/watch?v=s2lWxJLzFlE)
+
+## Lesson 05. Подвал
+Внутри файлы темы. В данный момент тема уже рабочая. В этой части пилим подвал: создаем несколько настроек и настраиваем виджеты в подвале.
+
+Внесены изменения в файлы
+```
+style.css
+functions.php
+header.php
+footer.php
+theme-optons.php
+widget-areas.php
+```
+Добавлены файлы
+```
+custom-footer.php
+copyright.php
+newsletter.php
+widgets.php
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 05](https://www.youtube.com/watch?v=vcnuv_48_Vw)
