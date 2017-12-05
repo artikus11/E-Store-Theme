@@ -5,6 +5,7 @@
 - [Шапка: формы, логотип, поиск, корзина](https://github.com/artikus11/E-Store-Theme#lesson-041-Шапка-формы-логотип-поиск-корзина)
 - [Шапка: завершение](https://github.com/artikus11/E-Store-Theme#lesson-042-Шапка-завершение)
 - [Подвал](https://github.com/artikus11/E-Store-Theme#lesson-05-Подвал)
+- [Стандарные страницы](https://github.com/artikus11/E-Store-Theme#lesson-06-Стандарные-страницы)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -144,3 +145,20 @@ widgets.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 05](https://www.youtube.com/watch?v=vcnuv_48_Vw)
+
+## Lesson 06. Стандарные страницы
+Внутри файлы темы. В данный момент тема уже рабочая. В этой серии настраиваем стандартные страницы: single.php, page.php, 404.php, index.php, archive.php, search.php
+
+Внесены изменения в файлы
+```
+style.css
+widget-areas.php
+single.php
+page.php
+404.php
+index.php
+archive.php
+search.php
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 05](https://www.youtube.com/watch?v=Q0L2MAG6kmo)
