@@ -6,6 +6,7 @@
 - [Шапка: завершение](https://github.com/artikus11/E-Store-Theme#lesson-042-Шапка-завершение)
 - [Подвал](https://github.com/artikus11/E-Store-Theme#lesson-05-Подвал)
 - [Стандарные страницы](https://github.com/artikus11/E-Store-Theme#lesson-06-Стандарные-страницы)
+- [Страница товара](https://github.com/artikus11/E-Store-Theme#lesson-071-Страница-товара-начало)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -161,4 +162,21 @@ archive.php
 search.php
 ```
 
-> Смотреть на YouTube [HTML2WC.Lesson 05](https://www.youtube.com/watch?v=Q0L2MAG6kmo)
+> Смотреть на YouTube [HTML2WC.Lesson 06](https://www.youtube.com/watch?v=Q0L2MAG6kmo)
+
+## Lesson 07.1. Страница товара. Начало
+Внутри файлы темы. В данный момент тема уже рабочая. В этой серии начинаем делать страницу товара и создаем начальные обертки
+
+Внесены изменения в файлы
+```
+wc-functions-remove.php
+wc-functions.php
+```
+Добавлены файлы
+```
+single-product.php
+content-single-product.php
+single-product-reviews.php
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 07.1](https://www.youtube.com/watch?v=kcu1GEkyQzA)
