@@ -6,7 +6,7 @@
 - [Шапка: завершение](https://github.com/artikus11/E-Store-Theme#lesson-042-Шапка-завершение)
 - [Подвал](https://github.com/artikus11/E-Store-Theme#lesson-05-Подвал)
 - [Стандарные страницы](https://github.com/artikus11/E-Store-Theme#lesson-06-Стандарные-страницы)
-- [Страница товара](https://github.com/artikus11/E-Store-Theme#lesson-071-Страница-товара-начало)
+- [Страница товара](https://github.com/artikus11/E-Store-Theme#lesson-071-Страница-товара-Начало)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
