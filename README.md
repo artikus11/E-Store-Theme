@@ -7,6 +7,7 @@
 - [Подвал](https://github.com/artikus11/E-Store-Theme#lesson-05-Подвал)
 - [Стандарные страницы](https://github.com/artikus11/E-Store-Theme#lesson-06-Стандарные-страницы)
 - [Страница товара](https://github.com/artikus11/E-Store-Theme#lesson-071-Страница-товара-Начало)
+- [Страница товара. Контент](https://github.com/artikus11/E-Store-Theme#lesson-072-Страница-товара-Настраиваем-контент)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -180,3 +181,18 @@ single-product-reviews.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 07.1](https://www.youtube.com/watch?v=kcu1GEkyQzA)
+
+## Lesson 07.2. Страница товара. Настраиваем контент
+Внутри файлы темы. В данный момент тема уже рабочая. В этой серии настраиваем страницу товара, а именно добавляем рейтинги, правим описание, цену, кнопку добавить в корзину, оформляем поле с количеством товара и подпиливаем переключатель вариативных товаров
+
+Внесены изменения в файлы
+```
+wc-functions-remove.php
+wc-functions.php
+```
+Добавлены файлы
+```
+quantity-input.php
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 07.2](https://www.youtube.com/watch?v=at0itFdYgCc)
