@@ -8,6 +8,7 @@
 - [Стандарные страницы](https://github.com/artikus11/E-Store-Theme#lesson-06-Стандарные-страницы)
 - [Страница товара](https://github.com/artikus11/E-Store-Theme#lesson-071-Страница-товара-Начало)
 - [Страница товара. Контент](https://github.com/artikus11/E-Store-Theme#lesson-072-Страница-товара-Настраиваем-контент)
+- [Страница товара. Вкладки](https://github.com/artikus11/E-Store-Theme#lesson-073-Страница-товара-Настраиваем-вкладки)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -196,3 +197,24 @@ quantity-input.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 07.2](https://www.youtube.com/watch?v=at0itFdYgCc)
+
+## Lesson 07.3. Страница товара. Настраиваем вкладки
+Внутри файлы темы. В данный момент тема уже рабочая. В этой серии настраиваем вкладки на странице товара и их содержимое
+
+Внесены изменения в файлы
+```
+wc-functions-remove.php
+wc-functions.php
+review.php
+review-meta.php
+single-product-reviews.php
+```
+Добавлены файлы
+```
+review.php
+review-meta.php
+single-product-reviews.php
+wc-functions-single.php
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 07.3](https://www.youtube.com/watch?v=djSr-UaPnS0)
