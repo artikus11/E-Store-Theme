@@ -9,6 +9,8 @@
 - [Страница товара](https://github.com/artikus11/E-Store-Theme#lesson-071-Страница-товара-Начало)
 - [Страница товара. Контент](https://github.com/artikus11/E-Store-Theme#lesson-072-Страница-товара-Настраиваем-контент)
 - [Страница товара. Вкладки](https://github.com/artikus11/E-Store-Theme#lesson-073-Страница-товара-Настраиваем-вкладки)
+- [Страница архивов товара. Сайдбар и обертки](https://github.com/artikus11/E-Store-Theme#lesson-081-Страница-архивов-товара-Настраиваем-сайдбар)
+- [Страница архивов товара. Заголовки и субкатегории](https://github.com/artikus11/E-Store-Theme#lesson-082-Страница-архивов-товара-Удаляем-заголовки-и-настраиваем-подрубрики)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -218,3 +220,44 @@ wc-functions-single.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 07.3](https://www.youtube.com/watch?v=djSr-UaPnS0)
+
+## Lesson 08.1. Страница архивов товара. Настраиваем сайдбар
+Внутри файлы темы. В данный момент тема уже рабочая. Делаем глобальные обертки для страниц архивов
+
+Внесены изменения в файлы
+```
+functions.php
+widget-areas.php
+sidebar-shop.php
+wc-function-archive.php
+wc-functions-remove.php
+wc-functions.php
+
+```
+Добавлены файлы
+```
+archive-product.php
+content-product.php
+content-product_cat.php
+sidebar-shop.php
+wc-function-archive.php
+
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 08.1](https://www.youtube.com/watch?v=ClFX7Z00ORg)
+
+## Lesson 08.2. Страница архивов товара. Удаляем заголовки и настраиваем подрубрики
+Внутри файлы темы. В данный момент тема уже рабочая. В этой серии настраиваем удаляем заголов на странице магазина и настраиваем вывод подрубрик
+
+Внесены изменения в файлы
+```
+wc-functions.php
+
+```
+Удалены файлы
+```
+archive-product.php
+
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 08.1](https://www.youtube.com/watch?v=U9rQO26jzTM)
