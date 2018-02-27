@@ -11,6 +11,7 @@
 - [Страница товара. Вкладки](https://github.com/artikus11/E-Store-Theme#lesson-073-Страница-товара-Настраиваем-вкладки)
 - [Страница архивов товара. Сайдбар и обертки](https://github.com/artikus11/E-Store-Theme#lesson-081-Страница-архивов-товара-Настраиваем-сайдбар)
 - [Страница архивов товара. Заголовки и субкатегории](https://github.com/artikus11/E-Store-Theme#lesson-082-Страница-архивов-товара-Удаляем-заголовки-и-настраиваем-подрубрики)
+- [Страница архивов товара. Карточка товаров](https://github.com/artikus11/E-Store-Theme#lesson-083-Страница-архивов-товара-Настраиваем-карточку-товара)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -260,4 +261,30 @@ archive-product.php
 
 ```
 
-> Смотреть на YouTube [HTML2WC.Lesson 08.1](https://www.youtube.com/watch?v=U9rQO26jzTM)
+> Смотреть на YouTube [HTML2WC.Lesson 08.2](https://www.youtube.com/watch?v=U9rQO26jzTM)
+
+## Lesson 08.3. Страница архивов товара. Настраиваем карточку товаров
+Внутри файлы темы. В данный момент тема уже рабочая. Настраивам карточку товаров
+
+Внесены изменения в файлы
+```
+wc-function-archive.php
+loop/loop-end.php
+
+```
+Добавлены файлы
+```
+loop/add-to-cart.php
+loop/loop-end.php
+loop/loop-start.php
+loop/no-products-found.php
+loop/orderby.php
+loop/pagination.php
+loop/price.php
+loop/rating.php
+loop/result-count.php
+loop/sale-flash.php
+
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 08.3](https://www.youtube.com/watch?v=lB6FRlw94fE)
