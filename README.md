@@ -12,6 +12,7 @@
 - [Страница архивов товара. Сайдбар и обертки](https://github.com/artikus11/E-Store-Theme#lesson-081-Страница-архивов-товара-Настраиваем-сайдбар)
 - [Страница архивов товара. Заголовки и субкатегории](https://github.com/artikus11/E-Store-Theme#lesson-082-Страница-архивов-товара-Удаляем-заголовки-и-настраиваем-подрубрики)
 - [Страница архивов товара. Карточка товаров](https://github.com/artikus11/E-Store-Theme#lesson-083-Страница-архивов-товара-Настраиваем-карточку-товара)
+- [Страница архивов товара. Создаем быстрый просмотр товара](https://github.com/artikus11/E-Store-Theme#lesson-084-Страница-архивов-товара-Создаем-быстрый-просмотр-товара)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -288,3 +289,22 @@ loop/sale-flash.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 08.3](https://www.youtube.com/watch?v=lB6FRlw94fE)
+
+## Lesson 08.4. Страница архивов товара. Создаем быстрый просмотр товара
+Внутри файлы темы. В данный момент тема уже рабочая. Запиливаем функционал быстрого просмотра товара на ajax
+
+Внесены изменения в файлы
+```
+includes/enqueue-script-style.php
+includes/ajax.php
+woocommerce/includes/wc-function-archive.php
+woocommerce/includes/wc-functions.php
+
+```
+Добавлены файлы
+```
+assets/js/ajax-quick-veiw.js
+
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 08.4](https://www.youtube.com/watch?v=o_xbWeiOfxk)
