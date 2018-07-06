@@ -14,6 +14,7 @@
 - [Страница архивов товара. Карточка товаров](https://github.com/artikus11/E-Store-Theme#lesson-083-Страница-архивов-товара-Настраиваем-карточку-товара)
 - [Страница архивов товара. Создаем быстрый просмотр товара](https://github.com/artikus11/E-Store-Theme#lesson-084-Страница-архивов-товара-Создаем-быстрый-просмотр-товара)
 - [Страница архивов товара. Создаем переключение картинок](https://github.com/artikus11/E-Store-Theme#lesson-085-Страница-архивов-товара-Создаем-переключение-картинок)
+- [Страница архивов товара. Похожие, апселлы, шорткод товаров](https://github.com/artikus11/E-Store-Theme#lesson-086-Страница-архивов-товара-Похожие-апселлы-шорткод-товаров)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -322,3 +323,21 @@ style.css
 
 
 > Смотреть на YouTube [HTML2WC.Lesson 08.5](https://www.youtube.com/watch?v=7zWKq11Rayk)
+
+
+## Lesson 08.6. Страница архивов товара. Похожие, апселлы, шорткод товаров
+Внутри файлы темы. В данный момент тема уже рабочая. Настраиваем похожие товары, апселлы и разбираемся с шорткодом вывода товаров
+
+
+Внесены изменения в файлы
+```
+woocommerce/single-product/related.php
+woocommerce/single-product/up-sells.php
+woocommerce/includes/wc-functions-single.php
+woocommerce/includes/wc-functions.php
+woocommerce/includes/wc-functions-remove.php
+style.css
+```
+
+
+> Смотреть на YouTube [HTML2WC.Lesson 08.6](https://www.youtube.com/watch?v=OxnevUtvrOY)
