@@ -15,6 +15,7 @@
 - [Страница архивов товара. Создаем быстрый просмотр товара](https://github.com/artikus11/E-Store-Theme#lesson-084-Страница-архивов-товара-Создаем-быстрый-просмотр-товара)
 - [Страница архивов товара. Создаем переключение картинок](https://github.com/artikus11/E-Store-Theme#lesson-085-Страница-архивов-товара-Создаем-переключение-картинок)
 - [Страница архивов товара. Похожие, апселлы, шорткод товаров](https://github.com/artikus11/E-Store-Theme#lesson-086-Страница-архивов-товара-Похожие-апселлы-шорткод-товаров)
+- [Страница корзины](https://github.com/artikus11/E-Store-Theme#lesson-086-Страница-корзины)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -341,3 +342,25 @@ style.css
 
 
 > Смотреть на YouTube [HTML2WC.Lesson 08.6](https://www.youtube.com/watch?v=OxnevUtvrOY)
+
+
+## Lesson 09.1. Страница корзины
+Внутри файлы темы. В данный момент тема уже рабочая. Настраиваем страницу корзины и добавляем новый щаблон страниц
+
+Изменено
+```
+woocommerce/includes/wc-function-archive.php
+style.css
+```
+
+Добавлено
+```
+woocommerce/cart/cart.php
+woocommerce/cart/cart-totals.php
+woocommerce/cart/cross-sells.php
+woocommerce/cart/proceed-to-checkout-button.php
+templates/no-sidebar.php
+
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 09.1](https://www.youtube.com/watch?v=2g2NpHufIfY)
