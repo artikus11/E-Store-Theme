@@ -16,6 +16,7 @@
 - [Страница архивов товара. Создаем переключение картинок](https://github.com/artikus11/E-Store-Theme#lesson-085-Страница-архивов-товара-Создаем-переключение-картинок)
 - [Страница архивов товара. Похожие, апселлы, шорткод товаров](https://github.com/artikus11/E-Store-Theme#lesson-086-Страница-архивов-товара-Похожие-апселлы-шорткод-товаров)
 - [Страница корзины](https://github.com/artikus11/E-Store-Theme#lesson-091-Страница-корзины)
+- [Страница оформления заказа](https://github.com/artikus11/E-Store-Theme#lesson-092-Страница-формления-заказа)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -364,3 +365,26 @@ templates/no-sidebar.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 09.1](https://www.youtube.com/watch?v=2g2NpHufIfY)
+
+
+## Lesson 09.2. Страница оформления заказа
+Внутри файлы темы. В данный момент тема уже рабочая. Настраиваем страницу оформления заказа (чекаут)
+
+Изменено
+```
+assets/css/bootstrap.css
+style.css
+```
+
+Добавлено
+```
+woocommerce/cart/cart-shipping.php
+woocommerce/checkout/form-coupon.php
+woocommerce/checkout/payment.php
+woocommerce/checkout/review-order.php
+woocommerce/includes/wc-functions-checkout.php
+woocommerce/notices/notice.php
+
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 09.2](https://www.youtube.com/watch?v=wQldCa10VrQ)
