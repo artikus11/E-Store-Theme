@@ -17,6 +17,7 @@
 - [Страница архивов товара. Похожие, апселлы, шорткод товаров](https://github.com/artikus11/E-Store-Theme#lesson-086-Страница-архивов-товара-Похожие-апселлы-шорткод-товаров)
 - [Страница корзины](https://github.com/artikus11/E-Store-Theme#lesson-091-Страница-корзины)
 - [Страница оформления заказа](https://github.com/artikus11/E-Store-Theme#lesson-092-Страница-оформления-заказа)
+- [Страница Спасибо](https://github.com/artikus11/E-Store-Theme#lesson-093-Страница-спасибо)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -388,3 +389,22 @@ woocommerce/notices/notice.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 09.2](https://www.youtube.com/watch?v=wQldCa10VrQ)
+
+
+## Lesson 09.3. Страница Спасибо
+Внутри файлы темы. В данный момент тема уже рабочая. Настраиваем страницу Спасибо
+
+Изменено
+```
+
+```
+
+Добавлено
+```
+woocommerce/checkout/thankyou.php
+woocommerce/order/order-details.php
+woocommerce/order/order-details-customer.php
+
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 09.3](https://www.youtube.com/watch?v=6yABIws_MiU)
