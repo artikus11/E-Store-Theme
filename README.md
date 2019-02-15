@@ -18,6 +18,7 @@
 - [Страница корзины](https://github.com/artikus11/E-Store-Theme#lesson-091-Страница-корзины)
 - [Страница оформления заказа](https://github.com/artikus11/E-Store-Theme#lesson-092-Страница-оформления-заказа)
 - [Страница Спасибо](https://github.com/artikus11/E-Store-Theme#lesson-093-Страница-спасибо)
+- [Страница Мой аккаунт](https://github.com/artikus11/E-Store-Theme#lesson-094-Страница-Мой-аккаунт)
 
 Внутри лежит папка с хтмл-шаблоном electronic_store и архив e-store-theme.zip с базовой темой. Можно ничего не устанавливать, так как в последующих уроках будет полный разбор файлов. Главное площадку настроить. 
 
@@ -408,3 +409,30 @@ woocommerce/order/order-details-customer.php
 ```
 
 > Смотреть на YouTube [HTML2WC.Lesson 09.3](https://www.youtube.com/watch?v=6yABIws_MiU)
+
+## Lesson 09.4. Страница Мой аккаунт
+Внутри файлы темы. В данный момент тема уже рабочая. Настраиваем страницу Мой аккаунт и остальные страницы с ней связанные
+
+Изменено
+```
+woocommerce/includes/wc-functions.php
+templates/no-sidebar.php
+style.css
+
+```
+
+Добавлено
+```
+woocommerce/myaccount/form-edit-account.php
+woocommerce/myaccount/form-edit-address.php
+woocommerce/myaccount/form-login.php
+woocommerce/myaccount/form-lost-password.php
+woocommerce/myaccount/form-reset-password.php
+woocommerce/myaccount/my-account.php
+woocommerce/myaccount/my-orders.php
+woocommerce/myaccount/navigation.php
+woocommerce/myaccount/orders.php
+
+```
+
+> Смотреть на YouTube [HTML2WC.Lesson 09.4](https://www.youtube.com/watch?v=Am3DGY9-D0o)
